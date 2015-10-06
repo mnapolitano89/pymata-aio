@@ -382,7 +382,7 @@ class PyMata3:
                                                            cb,
                                                            cb_type))
 
-    def i2c_write_request(self, address, args):
+    def i2c_write_request(self, address, *args):
         """
         Write data to an i2c device.
 
